@@ -13,7 +13,7 @@ import com.lbx.core.service.TestService;
 public class GetNameController {
 	@Reference
 	private TestService testservice; 
-	
+	//wdnmd
 	@RequestMapping("/getname")
 	public List<Brand> getname(){
 		return testservice.getName();
