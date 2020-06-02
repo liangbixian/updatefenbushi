@@ -1,3 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.lbx</groupId>
@@ -6,7 +7,7 @@
   <packaging>pom</packaging>
   
   
-   <!-- 集中定义依赖版本号 -->
+   <!-- 集中定义依赖版本�? -->
     <properties>
         <spring.version>5.1.7.RELEASE</spring.version>
         <pagehelper.version>4.0.0</pagehelper.version>
@@ -140,7 +141,7 @@
                 <artifactId>mysql-connector-java</artifactId>
                 <version>${mysql.version}</version>
             </dependency>
-            <!-- 连接池 -->
+            <!-- 连接�? -->
             <dependency>
                 <groupId>com.alibaba</groupId>
                 <artifactId>druid</artifactId>
@@ -191,7 +192,7 @@
                 <groupId>org.jasig.cas.client</groupId>
                 <artifactId>cas-client-core</artifactId>
                 <version>3.3.3</version>
-                <!-- 排除log4j包冲突 -->
+                <!-- 排除log4j包冲�? -->
                 <exclusions>
                     <exclusion>
                         <groupId>org.slf4j</groupId>
@@ -201,7 +202,7 @@
             </dependency>
 
 
-            <!-- solr客户端 -->
+            <!-- solr客户�? -->
             <dependency>
                 <groupId>org.apache.solr</groupId>
                 <artifactId>solr-solrj</artifactId>
@@ -240,5 +241,7 @@
     	<module>web_management</module>
     	<module>pojo</module>
     	<module>dao</module>
-    </modules>
+    <module>web_shop</module>
+    <module>web_magegggggggg</module>
+  </modules>
 </project>

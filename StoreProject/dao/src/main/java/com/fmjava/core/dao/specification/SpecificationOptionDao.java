@@ -2,7 +2,10 @@ package com.fmjava.core.dao.specification;
 
 import com.fmjava.core.pojo.specification.SpecificationOption;
 import com.fmjava.core.pojo.specification.SpecificationOptionQuery;
+
 import java.util.List;
+import java.util.Map;
+
 import org.apache.ibatis.annotations.Param;
 
 public interface SpecificationOptionDao {
@@ -27,4 +30,6 @@ public interface SpecificationOptionDao {
     int updateByPrimaryKeySelective(SpecificationOption record);
 
     int updateByPrimaryKey(SpecificationOption record);
+
+	List<Map> selectOptionList();
 }

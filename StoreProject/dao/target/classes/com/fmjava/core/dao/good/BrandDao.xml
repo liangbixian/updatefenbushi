@@ -86,6 +86,9 @@
       order by ${orderByClause}
     </if>
   </select>
+  <select id="selectOptionList" resultType="java.util.Map">
+    select id,name from tb_brand;
+  </select>
   <select id="selectByPrimaryKey" resultMap="BaseResultMap" parameterType="java.lang.Long" >
     select 
     id,name,first_char
